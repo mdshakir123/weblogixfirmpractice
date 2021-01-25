@@ -1,0 +1,19 @@
+div {
+    width: 80px;
+    height: 100px;
+    position: relative;
+  }
+  .infront {
+    background-color: red;
+    top: 10px;
+    left: 80px;
+    z-index: 3;
+    
+  }
+  .behind {
+    background-color: gold;
+    top: -60px;
+    left: 35px;
+    z-index: 5;
+    opacity: 0.5;
+  }

@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.all{
+    
+    height: 300px;
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+    
+
+}
+.card{
+    position: relative;
+    height: 100%;
+    width: 100%;
+transform-style: preserve-3d;
+    transition: all 0.5s ease 0s;
+   
+    
+}
+.card:hover{
+transform: rotateY(180deg);
+}
+.red{
+    color: blanchedalmond;
+    text-align: center;
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background: red;
+    border:2px solid red;
+    border-radius: 20px;
+    
+    
+}
+.green{
+    color: blanchedalmond;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background: green;
+    transform: rotateY(180deg);
+    color: #333;
+    border:2px solid green;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    
+
+}
